@@ -141,6 +141,56 @@ footer {
 }
 
 
+
+/* Slideshow */
+
+/* http://responsiveslides.com v1.54 by @viljamis */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 75%;
+  padding: 0;
+  margin: auto;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+.rslides_nav.next {
+    float: right;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.rslides_nav.prev {
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 /* Responsive Styles */
 
 @media only screen and (min-width: 1920px) {

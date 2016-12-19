@@ -14,6 +14,21 @@
 
     <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    
+    <!-- http://responsiveslides.com/ -->
+
+    
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+  $(function(){
+    $.getScript('http://responsiveslides.com/responsiveslides.min.js',function(){
+      $(".rslides").responsiveSlides({
+       speed: 1000,
+      maxwidth:1060,
+          nav: true,
+    });});
+  });
+</script>
 
 </head>
 
@@ -31,10 +46,20 @@
 	
 	<!-- Let the world know about you -->
 	<div class="about">
-		<p>An introductory paragraph about who you are and what you do.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non quaerat voluptatem.</p>
+		<p>IxD student at Ulster University with a love of bold graphics, bright colours, and spreading smiles through design.</p>
+		<p>Some of my work:</p>
 	</div>
+    
+    <div>
+        <ul class="rslides">
+            <li><img src="images/iOS.jpg" alt="iOS undersea wallpapers"></li>
+            <li><img src="images/serifkiller1.jpg" alt="'Serif Killer' type specimen poster"></li>
+            <li><img src="images/jp.jpg" alt="Minimalistic Jurassic Park poster"></li>
+            <li><img src="images/monsters.jpg" alt="Circle monsters icon set"></li>
+            <li><img src="images/olympics.jpg" alt="Olympic design systems exhibition poster"></li>
+            <li><img src="images/serifkiller2.jpg" alt="Akzidenz Grotesk type specimen poster"></li>
+        </ul>
+    </div>
 	
 	<!-- Icons from http://whanncons.com. Delete or comment out what you don't need -->
 	<div class="social">
