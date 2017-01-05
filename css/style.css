@@ -85,6 +85,11 @@ a:hover {
 }
 
 
+.about p {
+    text-align: center;
+}
+
+
 .social a {
   opacity: 0.3;
   transition: opacity .25s ease-in-out;
